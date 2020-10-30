@@ -1,0 +1,19 @@
+library_before.py:7:1: W191 indentation contains tabs
+library_before.py:7:1: E101 indentation contains mixed spaces and tabs
+library_before.py:7:1: W293 blank line contains whitespace
+library_before.py:9:80: E501 line too long (81 > 79 characters)
+library_before.py:15:1: W293 blank line contains whitespace
+library_before.py:21:1: W293 blank line contains whitespace
+library_before.py:27:1: W191 indentation contains tabs
+library_before.py:27:1: E101 indentation contains mixed spaces and tabs
+library_before.py:27:1: W293 blank line contains whitespace
+library_before.py:28:80: E501 line too long (107 > 79 characters)
+library_before.py:31:1: W293 blank line contains whitespace
+library_before.py:32:80: E501 line too long (102 > 79 characters)
+library_before.py:35:1: W293 blank line contains whitespace
+library_before.py:39:80: E501 line too long (90 > 79 characters)
+library_before.py:41:80: E501 line too long (124 > 79 characters)
+library_before.py:42:1: W293 blank line contains whitespace
+library_before.py:49:1: W293 blank line contains whitespace
+library_before.py:56:1: W293 blank line contains whitespace
+library_before.py:62:37: W292 no newline at end of file

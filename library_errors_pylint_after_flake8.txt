@@ -1,0 +1,23 @@
+************* Module library_after_flake8_pylint
+library_after_flake8_pylint.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+library_after_flake8_pylint.py:14:12: C0103: Attribute name "libraryOwner" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:20:12: C0103: Attribute name "libraryCoowner" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:26:12: C0103: Attribute name "libraryName" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:2:0: C0115: Missing class docstring (missing-class-docstring)
+library_after_flake8_pylint.py:30:4: W0105: String statement has no effect (pointless-string-statement)
+library_after_flake8_pylint.py:35:4: W0105: String statement has no effect (pointless-string-statement)
+library_after_flake8_pylint.py:41:4: C0103: Method name "printTheOwners" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+library_after_flake8_pylint.py:50:4: C0103: Method name "generateListOfClient" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:50:4: C0116: Missing function or method docstring (missing-function-docstring)
+library_after_flake8_pylint.py:52:8: C0103: Variable name "clientList" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:57:4: C0103: Method name "generateListOfEmployees" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:57:4: C0116: Missing function or method docstring (missing-function-docstring)
+library_after_flake8_pylint.py:59:8: C0103: Variable name "employeeList" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:64:4: C0103: Method name "generateListOfBooks" doesn't conform to snake_case naming style (invalid-name)
+library_after_flake8_pylint.py:64:4: C0116: Missing function or method docstring (missing-function-docstring)
+library_after_flake8_pylint.py:66:8: C0103: Variable name "bookList" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.38/10 (previous run: 5.38/10, +0.00)
+
