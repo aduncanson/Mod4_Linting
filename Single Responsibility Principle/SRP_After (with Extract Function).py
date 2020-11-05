@@ -1,3 +1,8 @@
+# Print names
+def Print_Names(person):
+    print("First name is: %s"%(person.first_name))
+    print("Second name is: %s"%(person.surname_name))
+
 ''' Class that declares person instance '''
 class Person():
     ''' The Person class object '''
@@ -17,6 +22,11 @@ class Person():
     # __repr__ function
     def __repr__(self):
         return "BookPublisher(first_name=%s, surname_name=%s)"%(self.first_name, self.surname_name)
+
+    # Extract function
+    def Extract(self):
+        print("Time to print the names!")
+        Print_Names(self)
 
 ''' Class that declares award instance '''
 class Award():
@@ -46,3 +56,6 @@ award1 = Award("Python Award!")
 
 # Add award to person's list
 add_to_awards_list(person1, award1)
+
+# Call Extract function
+person1.Extract()
